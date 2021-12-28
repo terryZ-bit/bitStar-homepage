@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: siyuan-normal;
+  src: url('../fonts/opti-font/SourceHanSans-Normal.ttf');
+}
+.siyuan-normal {
+  font-family: siyuan-normal;
+}
+
+@font-face {
+  font-family: siyuan-bold;
+  src: url('../fonts/opti-font/SourceHanSans-Bold.ttf');
+}
+.siyuan-bold {
+  font-family: siyuan-bold;
+}
+
+html {
+  min-width: 1902px;
+  overflow-y: scroll;
+}
+
+body {
+  font-family: pingfang;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.none {
+  display: none;
+}

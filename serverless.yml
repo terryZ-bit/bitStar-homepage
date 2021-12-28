@@ -1,0 +1,11 @@
+component: website
+name: bitStar
+app: bit-star-demo-01
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./dist
+  bucketName: my-vue-starter
+  protocol: https
